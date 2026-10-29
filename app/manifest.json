@@ -1,0 +1,8 @@
+{
+  "id": "paper-anki-desktop",
+  "name": "Anki",
+  "loadsBackend": false,
+  "entry": "/paperanki/AppLoad.qml",
+  "supportsScaling": true,
+  "canHaveMultipleFrontends": false
+}

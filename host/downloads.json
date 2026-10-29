@@ -1,0 +1,10 @@
+{
+  "ubuntu.tar.gz": {
+    "url": "https://cdimage.ubuntu.com/ubuntu-base/releases/24.04/release/ubuntu-base-24.04.4-base-arm64.tar.gz",
+    "sha256": "04207713ece899c3740823d33690441ad3a7f0ded1101aca744e2b0f37ac7ff2"
+  },
+  "anki.tar.zst": {
+    "url": "https://github.com/ankitects/anki/releases/download/26.09.3/anki-26.09.3-linux-aarch64.tar.zst",
+    "sha256": "0b586efdb0e3582bee3b9d08b9fa57df681fb97a8066d76a6743e1bc3fc331eb"
+  }
+}

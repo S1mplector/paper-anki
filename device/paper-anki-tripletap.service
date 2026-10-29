@@ -1,0 +1,13 @@
+[Unit]
+Description=Enable AppLoad with three presses of the power button
+After=xochitl.service
+ConditionPathExists=/home/root/xovi-tripletap/main.sh
+
+[Service]
+Type=simple
+ExecStart=/home/root/xovi-tripletap/main.sh
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

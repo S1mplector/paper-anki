@@ -1,0 +1,21 @@
+/* Device-only presentation overrides. Never modify synced note type templates. */
+html:root, html:root body, html:root body.card, html:root body.card.nightMode {
+    background:#fff !important; background-image:none !important; color:#111 !important;
+}
+html:root *, html:root *::before, html:root *::after {
+    animation:none !important; transition:none !important; box-shadow:none !important;
+    text-shadow:none !important; caret-color:#111;
+}
+html:root .study, html:root .reading, html:root #at-root .bg-white {
+    background:#fff !important; background-image:none !important; color:#111 !important;
+    border:0 !important; border-radius:0 !important; box-shadow:none !important; --accent:#222 !important;
+}
+html:root .study { padding:12px 16px !important; }
+html:root .study *, html:root .reading *, html:root #at-root .prose {
+    color:#111 !important; --tw-prose-body:#111; --tw-prose-headings:#111;
+    --tw-prose-bold:#111; --tw-prose-code:#111;
+}
+html:root #at-root .bg-indigo-50, html:root #at-root .bg-indigo-100,
+html:root .example, html:root .key, html:root .reading code { background:#eee !important; }
+html:root .zoom, html:root .zoom button { background:white !important; color:#111 !important; }
+html:root ::selection { background:#333 !important; color:white !important; }
